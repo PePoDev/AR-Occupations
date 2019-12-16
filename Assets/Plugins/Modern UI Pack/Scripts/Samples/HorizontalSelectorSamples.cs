@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using Michsky.UI.ModernUIPack; // You'll need this if you won't use the namespace
+
+// You'll need this if you won't use the namespace
 
 namespace Michsky.UI.ModernUIPack
 {

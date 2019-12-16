@@ -3,17 +3,14 @@
 // A Copy of the EULA APPENDIX 1 is available at http://unity3d.com/company/legal/as_terms
 
 using System.Collections.Generic;
-using Doozy.Editor;
 using Doozy.Editor.Internal;
 using Doozy.Engine.SceneManagement;
 using Doozy.Engine.Utils;
-using Doozy.Engine.Soundy;
 using Doozy.Editor.Soundy;
 using Doozy.Engine.UI.Base;
 using UnityEditor;
 using UnityEditor.AnimatedValues;
 using UnityEngine;
-using PropertyName = Doozy.Editor.PropertyName;
 
 namespace Doozy.Editor.SceneManagement
 {

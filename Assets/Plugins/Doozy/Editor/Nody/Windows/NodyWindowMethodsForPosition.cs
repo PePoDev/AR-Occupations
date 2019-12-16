@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Doozy.Editor.Nody.NodeGUI;
 using Doozy.Editor.Nody.Settings;
-using Doozy.Editor.Nody.Utils;
 using Doozy.Engine.Nody;
 using Doozy.Engine.Nody.Models;
 using UnityEngine;

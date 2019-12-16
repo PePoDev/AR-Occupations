@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using Doozy.Editor;
 using Doozy.Editor.Internal;
 using Doozy.Engine.UI;

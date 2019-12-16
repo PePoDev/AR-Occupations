@@ -7,7 +7,6 @@ using System.Collections;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Doozy.Engine;
 using UnityEditor;
 using UnityEditor.ProjectWindowCallback;
 using UnityEngine;

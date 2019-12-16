@@ -5,7 +5,6 @@
 using System;
 using DG.DOTweenEditor;
 using DG.Tweening;
-using Doozy.Editor;
 using Doozy.Editor.Internal;
 using Doozy.Engine.Extensions;
 using Doozy.Engine.Progress;
@@ -14,7 +13,6 @@ using Doozy.Editor.Soundy;
 using UnityEditor;
 using UnityEditor.AnimatedValues;
 using UnityEngine;
-using PropertyName = Doozy.Editor.PropertyName;
 
 namespace Doozy.Editor.Progress
 {

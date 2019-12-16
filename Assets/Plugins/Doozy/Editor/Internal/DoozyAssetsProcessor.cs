@@ -12,7 +12,6 @@ using Doozy.Engine.UI.Animation;
 using Doozy.Engine.UI.Settings;
 using Doozy.Engine.Utils;
 using UnityEditor;
-using UnityEngine;
 
 namespace Doozy.Editor.Internal
 {

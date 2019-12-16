@@ -4,8 +4,6 @@
 
 using System;
 using UnityEngine;
-using UnityEngine.Rendering;
-using Language = Doozy.Engine.Language;  
 
 // ReSharper disable InconsistentNaming
 

@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Doozy.Engine.Nody.Models;
 using UnityEditor;
-using UnityEngine;
 using Object = UnityEngine.Object;
 
 namespace Doozy.Editor.Nody.Processors

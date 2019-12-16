@@ -8,7 +8,6 @@ using Doozy.Engine.UI.Animation;
 using Doozy.Engine.Utils;
 using UnityEditor;
 using UnityEngine;
-using PropertyName = Doozy.Editor.PropertyName;
 
 namespace Doozy.Editor.UI.Animation
 {

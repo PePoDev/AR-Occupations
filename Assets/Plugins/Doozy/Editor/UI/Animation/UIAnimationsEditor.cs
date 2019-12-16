@@ -2,13 +2,10 @@
 // This code can only be used under the standard Unity Asset Store End User License Agreement
 // A Copy of the EULA APPENDIX 1 is available at http://unity3d.com/company/legal/as_terms
 
-using Doozy.Editor;
 using Doozy.Editor.Internal;
-using Doozy.Engine.Extensions;
 using Doozy.Engine.UI.Animation;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Events;
 
 namespace Doozy.Editor.UI.Animation
 {

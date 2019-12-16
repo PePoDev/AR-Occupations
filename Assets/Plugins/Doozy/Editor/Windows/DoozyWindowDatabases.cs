@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using Doozy.Engine.Extensions;
 using Doozy.Engine.UI.Base;
-using Doozy.Engine.Utils;
 using UnityEditor;
 using UnityEditor.AnimatedValues;
 using UnityEngine;

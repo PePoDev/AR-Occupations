@@ -4,7 +4,6 @@
 
 using System;
 using System.Collections.Generic;
-using Doozy.Editor;
 using Doozy.Editor.Internal;
 using Doozy.Editor.Windows;
 using Doozy.Engine.Extensions;
@@ -21,8 +20,6 @@ using UnityEditor.AnimatedValues;
 using UnityEngine;
 using UnityEngine.UI;
 using Object = UnityEngine.Object;
-using PropertyName = Doozy.Editor.PropertyName;
-using Styles = Doozy.Editor.Styles;
 
 #if dUI_TextMeshPro
 using TMPro;

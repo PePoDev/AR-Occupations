@@ -4,7 +4,6 @@
 
 using System;
 using System.IO;
-using Doozy.Engine.Settings;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;

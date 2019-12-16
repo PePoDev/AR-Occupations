@@ -8,7 +8,6 @@ using Doozy.Engine.UI.Base;
 using Doozy.Engine.UI.Settings;
 using Doozy.Engine.Utils;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 #if UNITY_EDITOR

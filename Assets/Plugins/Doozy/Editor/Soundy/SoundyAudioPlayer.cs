@@ -4,7 +4,6 @@
 
 using System;
 using System.Collections.Generic;
-using Doozy.Editor;
 using Doozy.Engine.Extensions;
 using Doozy.Engine.Soundy;
 using UnityEditor;

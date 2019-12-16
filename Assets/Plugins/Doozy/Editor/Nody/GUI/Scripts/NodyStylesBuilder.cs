@@ -6,7 +6,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Doozy.Editor;
 using Doozy.Editor.Internal;
 using Doozy.Engine.Extensions;
 using Doozy.Engine.Utils;

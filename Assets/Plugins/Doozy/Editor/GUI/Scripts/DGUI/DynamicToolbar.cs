@@ -5,7 +5,6 @@
 using System;
 using System.Collections.Generic;
 using Doozy.Editor.Settings;
-using Doozy.Engine;
 using Doozy.Engine.Extensions;
 using UnityEditor.AnimatedValues;
 using UnityEngine;

@@ -4,7 +4,6 @@
 
 using System;
 using System.Collections.Generic;
-using Doozy.Editor;
 using Doozy.Editor.Internal;
 using Doozy.Engine.Extensions;
 using Doozy.Engine.UI.Animation;
@@ -18,7 +17,6 @@ using UnityEditor;
 using UnityEditor.AnimatedValues;
 using UnityEngine;
 using Object = UnityEngine.Object;
-using PropertyName = Doozy.Editor.PropertyName;
 
 namespace Doozy.Editor.UI
 {

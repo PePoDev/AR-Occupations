@@ -4,8 +4,6 @@
 
 using System.Collections.Generic;
 using Doozy.Editor.Nody.Settings;
-using Doozy.Editor.Nody.Utils;
-using Doozy.Engine.Nody;
 using Doozy.Engine.Nody.Models;
 using UnityEngine;
 
