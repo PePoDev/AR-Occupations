@@ -29,3 +29,17 @@ MonoBehaviour:
     colorText: {r: 1, g: 0.9098039, b: 0.37254903, a: 1}
     colorIcon: {r: 1, g: 1, b: 1, a: 1}
     __Aligment: 00000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000
+  - __ENABLE: 0
+    NAME: Main Camera
+    NameFilter: ">\u2565<\u2565Main Camera"
+    ComponentFilter: 
+    TagFilter: 
+    LayerFilter: 
+    _icon: {fileID: 0}
+    hasColorText: 1
+    hasColorBg: 1
+    hasColorIcon: 1
+    colorBg: {r: 0.38431373, g: 0.49019608, b: 0.76862746, a: 1}
+    colorText: {r: 0.9607843, g: 0.7294118, b: 0.12156863, a: 1}
+    colorIcon: {r: 1, g: 1, b: 1, a: 1}
+    __Aligment: 00000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000

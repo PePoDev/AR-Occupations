@@ -10,43 +10,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a151aae416b497c9eaea8aa5ac1c555, type: 3}
-  m_Name: Theme_General
+  m_Name: General
   m_EditorClassIdentifier: 
   m_themeName: General
-  SerializedGuid: 3ef2fa0c0994d3498bbe2e119396a62c
+  SerializedGuid: 98c59cc85bb94e439e8f7443f1eeaad7
   m_activeVariant:
     m_variantName: Default
-    SerializedGuid: aa466fb264825144a6536f3eb9ad7a7b
+    SerializedGuid: aabe519ad35b764ebc37e36fbf458ca7
     Colors:
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: 1661a3b1b5a53644871258746a76ce22
+      SerializedGuid: efd6ee8a6a482b42a05303638c20cc8a
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: ed8d6c6fb21db54fabd982450e62ec26
+      SerializedGuid: ce809f947db70746a5d1fa930653f55e
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: 4c4ccfa2227b9d4591e75536a1acc7c6
+      SerializedGuid: 8024a8abff3ca54f8d7acacb04fc6e8e
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: fc7620568359034d867fc39353131927
+      SerializedGuid: dfe74545bc17bb44844c258139bcd664
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: b4989061546e5241b0db083ad53e543c
+      SerializedGuid: a542c399494843499bb9770e3a001732
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: e41101fddad56c4b929d397e818a96c6
+      SerializedGuid: 555915d4d3a3c546b0e63865befb2b85
     Sprites: []
     Textures: []
     Fonts: []
     FontAssets: []
   ColorLabels:
   - m_label: Primary
-    SerializedGuid: 1661a3b1b5a53644871258746a76ce22
+    SerializedGuid: efd6ee8a6a482b42a05303638c20cc8a
   - m_label: Secondary
-    SerializedGuid: ed8d6c6fb21db54fabd982450e62ec26
+    SerializedGuid: ce809f947db70746a5d1fa930653f55e
   - m_label: Accent 1
-    SerializedGuid: 4c4ccfa2227b9d4591e75536a1acc7c6
+    SerializedGuid: 8024a8abff3ca54f8d7acacb04fc6e8e
   - m_label: Accent 2
-    SerializedGuid: fc7620568359034d867fc39353131927
+    SerializedGuid: dfe74545bc17bb44844c258139bcd664
   - m_label: Text
-    SerializedGuid: b4989061546e5241b0db083ad53e543c
+    SerializedGuid: a542c399494843499bb9770e3a001732
   - m_label: Disabled
-    SerializedGuid: e41101fddad56c4b929d397e818a96c6
+    SerializedGuid: 555915d4d3a3c546b0e63865befb2b85
   SpriteLabels: []
   TextureLabels: []
   FontLabels: []
@@ -55,20 +55,20 @@ MonoBehaviour:
   - Default
   Variants:
   - m_variantName: Default
-    SerializedGuid: aa466fb264825144a6536f3eb9ad7a7b
+    SerializedGuid: aabe519ad35b764ebc37e36fbf458ca7
     Colors:
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: 1661a3b1b5a53644871258746a76ce22
+      SerializedGuid: efd6ee8a6a482b42a05303638c20cc8a
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: ed8d6c6fb21db54fabd982450e62ec26
+      SerializedGuid: ce809f947db70746a5d1fa930653f55e
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: 4c4ccfa2227b9d4591e75536a1acc7c6
+      SerializedGuid: 8024a8abff3ca54f8d7acacb04fc6e8e
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: fc7620568359034d867fc39353131927
+      SerializedGuid: dfe74545bc17bb44844c258139bcd664
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: b4989061546e5241b0db083ad53e543c
+      SerializedGuid: a542c399494843499bb9770e3a001732
     - m_color: {r: 1, g: 1, b: 1, a: 1}
-      SerializedGuid: e41101fddad56c4b929d397e818a96c6
+      SerializedGuid: 555915d4d3a3c546b0e63865befb2b85
     Sprites: []
     Textures: []
     Fonts: []
