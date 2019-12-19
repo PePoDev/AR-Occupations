@@ -1,4 +1,7 @@
-﻿namespace EnhancedScrollerDemos.MultipleCellTypesDemo
+﻿using UnityEngine;
+using System.Collections;
+
+namespace EnhancedScrollerDemos.MultipleCellTypesDemo
 {
     /// <summary>
     /// This set of classes store information about the different rows.

@@ -1,4 +1,6 @@
-﻿using EnhancedUI.EnhancedScroller;
+﻿using UnityEngine;
+using System.Collections;
+using EnhancedUI.EnhancedScroller;
 
 namespace EnhancedScrollerDemos.MultipleCellTypesDemo
 {

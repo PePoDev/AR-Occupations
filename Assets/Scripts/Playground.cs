@@ -1,18 +1,25 @@
-﻿using System.IO;
+﻿using System.Collections;
+using System.IO;
 using ImgurAPI;
 using UnityEngine;
 
 public class Playground : MonoBehaviour
 {
-    private void Start()
+    private IEnumerator Start()
     {
-        var path = $"{Application.dataPath}/screenshots";
+        var path = $"{Application.dataPath}/Screenshots";
         var fileName = "123";
         if (!Directory.Exists(path))
         {
             Directory.CreateDirectory(path);
         }
-        ScreenCapture.CaptureScreenshot($@"{path}/{fileName}.png");
-        // Imgur.Upload(@"C:\Users\PePoDev\Pictures\Wallpaper\apple-ipad-pro-2018-stock-4k-46-1920x1080.jpg");
+
+        path = $@"{path}/{fileName}.png";
+        
+        ScreenCapture.CaptureScreenshot(path);
+        
+        yield return new WaitForSeconds(.5f);
+        
+        Imgur.Upload(path);
     }
 }

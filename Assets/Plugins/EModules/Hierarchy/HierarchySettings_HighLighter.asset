@@ -16,8 +16,22 @@ MonoBehaviour:
   Initialized: 1
   _colorFilters:
   - __ENABLE: 0
-    NAME: MasterCanvas
-    NameFilter: ">\u2565<\u2565MasterCanvas"
+    NAME: Main Camera
+    NameFilter: ">\u2565<\u2565Main Camera"
+    ComponentFilter: 
+    TagFilter: 
+    LayerFilter: 
+    _icon: {fileID: 0}
+    hasColorText: 1
+    hasColorBg: 1
+    hasColorIcon: 1
+    colorBg: {r: 0.38431373, g: 0.49019608, b: 0.76862746, a: 1}
+    colorText: {r: 1, g: 0.92156863, b: 0, a: 1}
+    colorIcon: {r: 1, g: 1, b: 1, a: 1}
+    __Aligment: 00000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000
+  - __ENABLE: 0
+    NAME: Canvas - MasterCanvas
+    NameFilter: ">\u2565<\u2565Canvas - MasterCanvas"
     ComponentFilter: 
     TagFilter: 
     LayerFilter: 
@@ -30,8 +44,8 @@ MonoBehaviour:
     colorIcon: {r: 1, g: 1, b: 1, a: 1}
     __Aligment: 00000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000
   - __ENABLE: 0
-    NAME: Main Camera
-    NameFilter: ">\u2565<\u2565Main Camera"
+    NAME: View - Result
+    NameFilter: "\u256C@\u2565+\u2565<\u2565View -"
     ComponentFilter: 
     TagFilter: 
     LayerFilter: 
@@ -39,7 +53,7 @@ MonoBehaviour:
     hasColorText: 1
     hasColorBg: 1
     hasColorIcon: 1
-    colorBg: {r: 0.38431373, g: 0.49019608, b: 0.76862746, a: 1}
+    colorBg: {r: 0.003921569, g: 0.44705883, b: 0.5176471, a: 1}
     colorText: {r: 1, g: 0.92156863, b: 0, a: 1}
     colorIcon: {r: 1, g: 1, b: 1, a: 1}
     __Aligment: 00000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000

@@ -3,9 +3,15 @@ CaptainSchnittchen
 https://forum.unity.com/threads/nested-scrollrect.268551/
 */
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
 namespace EnhancedScrollerDemos.NestedLinkedScrollers
 {
     using UnityEngine;
+    using System.Collections;
     using UnityEngine.UI;
     using System;
     using UnityEngine.EventSystems;

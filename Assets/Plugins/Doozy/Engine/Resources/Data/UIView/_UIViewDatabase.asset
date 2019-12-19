@@ -17,6 +17,8 @@ MonoBehaviour:
   - Custom
   - Example
   - General
+  - AR
   Categories:
+  - {fileID: 11400000, guid: cb6b4a0f6552bcc4b8c54ed9376161dc, type: 2}
   - {fileID: 11400000, guid: b01e98f4801f7124ba39e1dac4debf90, type: 2}
   - {fileID: 11400000, guid: fffc6bbc6f04af44e81d5e74d7e305d2, type: 2}

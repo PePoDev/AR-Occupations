@@ -1,4 +1,8 @@
-﻿namespace EnhancedScrollerDemos.MultipleCellTypesDemo
+﻿using UnityEngine;
+using System.Collections;
+using EnhancedUI.EnhancedScroller;
+
+namespace EnhancedScrollerDemos.MultipleCellTypesDemo
 {
     /// <summary>
     /// This is the footer class. We could have just used the base CellView

@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using EnhancedUI.EnhancedScroller;
 
 namespace EnhancedScrollerDemos.MultipleCellTypesDemo
 {

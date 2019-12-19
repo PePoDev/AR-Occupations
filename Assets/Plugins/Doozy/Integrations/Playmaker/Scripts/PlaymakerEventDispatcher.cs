@@ -3,6 +3,12 @@
 // A Copy of the EULA APPENDIX 1 is available at http://unity3d.com/company/legal/as_terms
 
 
+using System.Collections;
+using System.Collections.Generic;
+using Doozy.Engine;
+using Doozy.Engine.UI;
+using Doozy.Engine.Utils;
+using UnityEditor;
 using UnityEngine;
 
 #if UNITY_EDITOR
