@@ -31,7 +31,7 @@ public class DeviceCamera : MonoBehaviour
 	    m_cameraTexture.Pause();
     }
 
-    public void PlayDeviceCamera()
+    private void PlayDeviceCamera()
     {
 	    m_cameraTexture.Play();
     }
