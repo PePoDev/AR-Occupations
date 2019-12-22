@@ -6,16 +6,11 @@ using ZXing.Common;
 [RequireComponent(typeof(RawImage))]
 public class QrCodeGenerator : MonoBehaviour
 {
-	[SerializeField] private BarcodeFormat format = BarcodeFormat.QR_CODE;
-	[SerializeField] private string data = "test";
 	private RawImage m_rawImage;
 
 	private void Start()
 	{
 		m_rawImage = GetComponent<RawImage>();
-		var tex = GenerateBarcode(data, format);
-		m_rawImage.texture = tex;
-		m_rawImage.rectTransform.sizeDelta = new Vector2(tex.width, tex.height);
 	}
 
 	public Texture2D GenerateBarcode(string targetData, BarcodeFormat targetFormat)

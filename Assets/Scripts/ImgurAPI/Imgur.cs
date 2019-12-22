@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using Proyecto26;
+using RSG;
 using UnityEngine;
 
 namespace ImgurAPI
@@ -14,7 +15,7 @@ namespace ImgurAPI
 			RestClient.DefaultRequestHeaders["Authorization"] = $"Bearer {token}";
 		}
 
-		public static void Upload(string imagFilePath)
+		public static IPromise<ImgurUploadResponse> Upload(string imagFilePath)
 		{
 			var fileStream = File.OpenRead(imagFilePath);
 			var imageData = new byte[fileStream.Length];
@@ -32,9 +33,8 @@ namespace ImgurAPI
 				FormData = form,
 				EnableDebug = true
 			};
-			RestClient.Post<ImgurUploadResponse>(request)
-				.Then(res => { Debug.Log(JsonUtility.ToJson(res, true)); })
-				.Catch(err => Debug.Log(err.Message));
+
+			return RestClient.Post<ImgurUploadResponse>(request);
 		}
 	}
 
