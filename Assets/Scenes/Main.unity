@@ -1362,6 +1362,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
   scrollView: {fileID: 357019789}
   main: {fileID: 1628435246}
+  loading: {fileID: 1762485635}
   custom: {fileID: 1680757292}
   result: {fileID: 181454814}
   photo: {fileID: 263327278}
@@ -2100,7 +2101,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1762485632
 RectTransform:
   m_ObjectHideFlags: 0
