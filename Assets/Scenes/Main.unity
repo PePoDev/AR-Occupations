@@ -1350,16 +1350,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 156071591}
   occupations:
+  - {fileID: 21300000, guid: 03b75fc2a1e903049884f68ad7f8a10a, type: 3}
+  - {fileID: 21300000, guid: 34346310147c3a9499996815e5d5dbba, type: 3}
+  - {fileID: 21300000, guid: 8d38be93944afb44a9bbe53ab8ba36e6, type: 3}
+  - {fileID: 21300000, guid: b5855006fa2b21d44b2b5d0d3591d0fb, type: 3}
   - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
-  - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
-  - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
-  - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
-  - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
-  - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
-  - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
-  - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
-  - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
-  - {fileID: 21300000, guid: ae2c868a1e09b3d448ea429358ce7657, type: 3}
+  - {fileID: 21300000, guid: db6c7b7d5b5e40f449c747d5f504ce69, type: 3}
+  - {fileID: 21300000, guid: 33d9e19a358c08a4d8c89605e35b5e95, type: 3}
+  - {fileID: 21300000, guid: fd33379d55f4a0744be25795fd99dcd3, type: 3}
+  - {fileID: 21300000, guid: 54be5334aae1e8340bf87c06552596d0, type: 3}
+  - {fileID: 21300000, guid: b53f379fb3be5c2419a0e1ec734fe402, type: 3}
   scrollView: {fileID: 357019789}
   main: {fileID: 1628435246}
   loading: {fileID: 1762485635}
