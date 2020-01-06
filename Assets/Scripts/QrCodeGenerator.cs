@@ -1,21 +1,16 @@
 ﻿using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 using ZXing;
 using ZXing.Common;
 
-[RequireComponent(typeof(RawImage))]
 public class QrCodeGenerator : MonoBehaviour
 {
-	private RawImage m_rawImage;
-
-	private void Start()
-	{
-		m_rawImage = GetComponent<RawImage>();
-	}
+	public RawImage rawImage;
 
 	public Texture2D GenerateBarcode(string targetData, BarcodeFormat targetFormat)
 	{
-		var sizeDelta = m_rawImage.rectTransform.sizeDelta;
+		var sizeDelta = rawImage.rectTransform.sizeDelta;
 		var bitMatrix = new MultiFormatWriter().encode(targetData, targetFormat, (int)sizeDelta.x, (int)sizeDelta.y);
 		var pixels = new Color[bitMatrix.Width * bitMatrix.Height];
 		var pos = 0;

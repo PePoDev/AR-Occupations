@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
 	public RawImage qrCode;
 
 	private int m_currentSelection;
-	private QrCodeGenerator m_qrGen;
+	public QrCodeGenerator qrGen;
 
 	private void Awake()
 	{
@@ -43,7 +43,6 @@ public class GameManager : MonoBehaviour
 
 		scrollView.UpdateData(items);
 
-		m_qrGen = qrCode.GetComponent<QrCodeGenerator>();
 		scrollView.scroller.OnSelectionChanged(id => { m_currentSelection = id; });
 	}
 
@@ -85,7 +84,7 @@ public class GameManager : MonoBehaviour
 			Imgur.Upload(path)
 				.Then(res =>
 				{
-					var tex = m_qrGen.GenerateBarcode(res.data.link, BarcodeFormat.QR_CODE);
+					var tex = qrGen.GenerateBarcode(res.data.link, BarcodeFormat.QR_CODE);
 					qrCode.texture = tex;
 					qrCode.rectTransform.sizeDelta = new Vector2(tex.width, tex.height);
 
